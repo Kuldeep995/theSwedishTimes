@@ -25,9 +25,9 @@ type NewsResponse = {
 
 type Category =
   | "business"
-  | "entertainment"
-  | "general"
-  | "health"
-  | "science"
-  | "sports"
+  | "finance"
+  | "tech"
+  | "climate"
+  | "startups"
+  | "ventures"
   | "technology";

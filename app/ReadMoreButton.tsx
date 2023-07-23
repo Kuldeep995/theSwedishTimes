@@ -9,6 +9,7 @@ function ReadMoreButton({ article }: Props) {
   const router = useRouter();
 
   const handleClick = () => {
+    console.log("read mmopre");
     const queryString = Object.entries(article)
       .map(([key, value]) => `${key}=${value}`)
       .join("&");

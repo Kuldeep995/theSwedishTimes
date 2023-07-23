@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/globals.css";
 import Header from "./Header";
 import Providers from "./Providers";
+import Footer from "./Footer";
+
 
 export default function RootLayout({
   children,
@@ -18,6 +20,7 @@ export default function RootLayout({
           <Header />
           <div className="max-w-6xl mx-auto">{children}</div>
         </body>
+        <Footer />
       </Providers>
     </html>
   );

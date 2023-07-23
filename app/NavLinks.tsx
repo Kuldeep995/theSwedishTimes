@@ -13,8 +13,8 @@ function NavLinks() {
 
   return (
     <nav
-      className="grid grid-cols-4 md:grid-cols-7 
-    text-cs md:text-sm gap-4 pb-10 max-w-6xl mx-auto border-b"
+      className="grid grid-cols-3 md:grid-cols-6 
+    text-cs md:text-sm gap-4 pb-10 pl-4 pr-4 max-w-6xl mx-auto border-b"
     >
       {categories.map((category) => (
         <NavLink
